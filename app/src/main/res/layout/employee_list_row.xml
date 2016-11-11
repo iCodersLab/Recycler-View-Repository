@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="3dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/employee_first_name"
+            android:text="Aleshia "
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/employee_first_name"
+            android:layout_toRightOf="@+id/employee_first_name"
+            android:id="@+id/employee_last_name"
+            android:text="Tomkiewicz"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/employee_first_name"
+            android:id="@+id/employee_compnay"
+            android:layout_marginTop="3dp"
+            android:text="Alan D Rosenburg Cpa Pc"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/employee_compnay"
+            android:id="@+id/employee_city"
+            android:layout_marginTop="2dp"
+            android:text="St. Stephens Ward, "
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/employee_city"
+            android:layout_toRightOf="@+id/employee_city"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/employee_compnay"
+            android:id="@+id/employee_country"
+            android:text="Kent"
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/employee_first_name"
+            android:id="@+id/employee_phone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp"
+            android:text="01835-703597"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
